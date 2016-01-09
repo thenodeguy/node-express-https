@@ -1,0 +1,11 @@
+{
+  "name": "node-express-https",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "jade": "~1.11.0"
+  }
+}
