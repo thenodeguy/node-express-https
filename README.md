@@ -9,16 +9,15 @@ To install
 -
 npm install
 
-Required actions
+To setup
 -
 cd config/certs/  
 chmod 400 *
 
-Run
+To run
 -
 sudo npm start
 
 To test in a browser
 -
-http://localhost/  
-http://localhost:443/
+http://localhost/
