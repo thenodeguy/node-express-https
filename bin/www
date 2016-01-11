@@ -9,8 +9,8 @@ var httpServer = http.createServer(app);
 httpServer.listen(httpPort);
 
 var options = {
-  key: fs.readFileSync(__dirname + '/../configs/certs/key.pem'),
-  cert: fs.readFileSync(__dirname + '/../configs/certs/cert.pem')
+  key: fs.readFileSync(__dirname + '/../certs/key.pem'),
+  cert: fs.readFileSync(__dirname + '/../certs/cert.pem')
 };
 
 var https = require('https');
