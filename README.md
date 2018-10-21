@@ -1,4 +1,7 @@
 # node-express-https
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bjvickers/node-express-https.svg)](https://greenkeeper.io/)
+
 A basic and lean recipe for implementing HTTPS in a node express server.
 
 Comes with a pre-generated self-signed SSL certificate, for the purpose of getting
